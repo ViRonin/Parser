@@ -34,7 +34,7 @@ Data collection through.py:
 
 В этом блоке данные выводься в терминале сылки поэтом для своих нужд изменяйте `class_` и `item`.
 
-## [3. Блок разбора сохраненной страницы для `.xlsx` и `.txt`](https://github.com/ViRonin/Parser/blob/main/Parser%20py/Data%20collection%20through.py)
+## [3. Блок разбора сохраненной страницы для `.xlsx` и `.txt`](https://github.com/ViRonin/Parser/blob/main/Parser%20py/Pars%20in%20Exel%20and%20text.py)
 Sawer html file .py следующие библиотеки в этом блоке :	  
 
 	from bs4 import BeautifulSoup
