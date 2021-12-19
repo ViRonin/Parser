@@ -16,12 +16,12 @@
 
 Sawer html file .py следующие библиотеки в этом блоке :	  
 
-	  import pyautogui
-    from time import sleep
-    from selenium import webdriver
-    from selenium.webdriver.chrome.options import Options
-    from random import choice
-    import requests
+	import pyautogui
+        from time import sleep
+        from selenium import webdriver
+        from selenium.webdriver.chrome.options import Options
+        from random import choice
+    	import requests
 
 Данные сохраняються в формате `.html`
 
@@ -34,14 +34,14 @@ Data collection through.py:
 
 В этом блоке данные выводься в терминале сылки поэтом для своих нужд изменяйте `class_` и `item`.
 
-## [3. Блок разбора сохраненной страницы для `.xlsx`и `.txt`](https://github.com/ViRonin/Parser/blob/main/Parser%20py/Data%20collection%20through.py)
+## [3. Блок разбора сохраненной страницы для `.xlsx` и `.txt`](https://github.com/ViRonin/Parser/blob/main/Parser%20py/Data%20collection%20through.py)
 Sawer html file .py следующие библиотеки в этом блоке :	  
 
-	  from bs4 import BeautifulSoup
-    import os, openpyxl
-    from datetime import datetime
+	from bs4 import BeautifulSoup
+    	import os, openpyxl
+    	from datetime import datetime
 
-Данные сохраняються в формате `.xlsx`и `.txt`, в разбивке `одина ячейка информации = одна строка`. 
+Данные сохраняються в формате `.xlsx` и `.txt`, в разбивке `одина ячейка информации = одна строка`. 
 
 `datetime` необходимо для записи `.xlsx` документа во избежания конфликта называя сам документ датой записи и формированием документа
 
@@ -53,6 +53,13 @@ Sawer html file .py следующие библиотеки в этом блок
 - указано неправельно `div` или `class`
 - сработала капча сайта
 - необходимо юзер агент прописывать или прокси
+
+
+Приемущество: 
+- скорость выполнения задач
+- отпадает необходимость сохранять страницы на жосткий диск ПК
+-   
+
 
 ## Технические параметры
 
