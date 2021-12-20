@@ -38,8 +38,8 @@ Data collection through.py:
 Sawer html file .py следующие библиотеки в этом блоке :	  
 
 	from bs4 import BeautifulSoup
-    	import os, openpyxl
-    	from datetime import datetime
+	import os, openpyxl
+	from datetime import datetime
 
 Данные сохраняться в формате `.xlsx` и `.txt`, в разбивке `одна ячейка информации = одна строка`. 
 
